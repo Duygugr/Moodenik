@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodenik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="music-box">
+            <h1>Moodenik</h1>
+            <h3>Bugün nasıl hissediyorsun?</h3>
+            <div class="feeling-box">
+                <button class = "mood-btn" data-mood="happy" id = "happy"><i class="fa-regular fa-face-smile" ></i>Mutlu</button>
+                <button class = "mood-btn" data-mood="sad" id = "sad"><i class="fa-regular fa-face-frown-open"></i>Hüzünlü</button>
+                <button class = "mood-btn" data-mood="calm" id = "calm"><i class="fa-regular fa-face-meh"></i>Sakin</button>
+                <button class = "mood-btn" data-mood="energetic" id = "energetic"><i class="fa-regular fa-face-laugh-beam"></i>Enerjik</button>
+                <button class = "mood-btn" data-mood="love" id = "love"><i class="fa-regular fa-face-grin-hearts"></i>Aşık</button>
+                <button class = "mood-btn" data-mood="nostalgic" id = "nostalgic" ><i class="fa-solid fa-radio"></i>Nostaljik</button>       
+            </div>
+
+            <div class="language">
+                <h2>Hangi dilde şarkılar çalsın?</h2><br>
+                <button class="lang-btn" data-lang="tr">Türkçe</button>
+                <button class="lang-btn" data-lang="en">İngilizce</button>
+                <button class="lang-btn" data-lang="mix">Karışık</button>
+            </div>
+
+            <div id="song-list">
+                <!-- <div class="song-card">
+                </div> -->
+               
+            </div>
+        </div>
+    </div>
+    
+
+
+<script src="app.js"></script>
+</body>
+</html>
