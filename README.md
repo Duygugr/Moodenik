@@ -20,7 +20,7 @@ Moodenik, kullanıcının ruh haline ve tercih ettiği dile göre müzik öneril
 - Spotify Embed
 
 
-![Moodenik](./img/MOODENİK1.png)
+![Moodenik](.MOODENİK1.png)
 
 
 ## 🌐 Canlı Demo
