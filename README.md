@@ -1,6 +1,6 @@
 # 🎵 Moodenik
 
-Moodenik, kullanıcının ruh haline ve tercih ettiği dile göre müzik önerileri sunan modern bir web uygulamasıdır. Kullanıcılar ruh hallerine uygun Spotify çalma listelerini kolayca keşfedebilir ve dinleyebilir.
+Moodenik, kullanıcının ruh haline ve tercih ettiği dile göre müzik önerileri sunan modern bir web sitesidir. Kullanıcılar ruh hallerine uygun Spotify çalma listelerini kolayca keşfedebilir ve dinleyebilir.
 
 ## 🚀 Özellikler
 
